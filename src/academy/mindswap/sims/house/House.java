@@ -51,7 +51,7 @@ public class House implements Iterable<Room>{
     }
 
     @Override
-    public Iterator<Room> iterator() {
+    public Iterator<Room> iterator() {//wrong place not needed
         return new Iterator<Room>() {
             int index;
             @Override
